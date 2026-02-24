@@ -56,11 +56,13 @@ class _MyHomePageState extends State<MyHomePage> {
         mainAxisAlignment: .end,
         children: [
           FloatingActionButton(
+            heroTag: 'Action1',
             onPressed: _incrementCounter,
             tooltip: 'Increment',
             child: const Icon(Icons.add),
           ),
           FloatingActionButton(
+            heroTag: 'Action2',
             onPressed: () {
               Navigator.of(context).pop();
             },
