@@ -10,11 +10,7 @@ class CNEConsultaLugarVotacion extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'CNE Consulta Lugar de Votacion',
-      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: const MyHomePage(title: 'Lugar de votacion'),
-    );
+    return const MyHomePage(title: 'Lugar de votacion');
   }
 }
 
